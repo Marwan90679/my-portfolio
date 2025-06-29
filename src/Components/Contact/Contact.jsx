@@ -52,8 +52,7 @@ const Contact = () => {
               Send me a message
             </h2>
 
-            <form className="space-y-5">
-              {/* space-y-5: Adds vertical space between form elements. */}
+            <form className="space-y-5" action='https://formspree.io/f/xwpbykdy' method="POST">
               <div>
                 <label
                   htmlFor="name"

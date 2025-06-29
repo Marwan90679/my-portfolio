@@ -39,10 +39,10 @@ const Skills = () => {
   ];
 
   return (
-    <div className="bg-stone-900 lg:py-12 lg:h-screen">
+    <section name='skills' className="bg-stone-900 lg:py-12 lg:h-screen">
       <div className="w-11/12 md:w-3/4 lg:w-2/3 mx-auto  flex flex-col">
         <div className="text-center">
-          <h3 className="font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-50 mt-5 pt-8 pb-4">
+          <h3 className="font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-50  pt-12 pb-4">
             Skills
           </h3>
           <p className="text-gray-300 lg:w-3/4 mx-auto">
@@ -75,7 +75,7 @@ const Skills = () => {
           })}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

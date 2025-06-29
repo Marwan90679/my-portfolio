@@ -3,12 +3,12 @@ import React from "react";
 const AboutMe = () => {
   return (
     
- <section className="relative min-h-screen">
+ <section className="relative min-h-screen" name='about'>
        <div className="absolute inset-0 bg-white/40"></div>
-       <div className=" font-rubik w-11/12 md:w-3/4 lg:w-2/3 mx-auto  flex flex-col justify-center py-4 lg:py-12 ">
+       <div className=" font-rubik w-11/12 md:w-3/4 lg:w-2/3 mx-auto  flex flex-col justify-center py-4 lg:pt-6">
            
       <div className="flex justify-center lg:mb-8">
-        <h3 className="font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-stone-900 py-8">
+        <h3 className="font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-stone-900 ">
           About Me
         </h3>
       </div>

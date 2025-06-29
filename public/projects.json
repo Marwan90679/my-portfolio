@@ -1,0 +1,93 @@
+[
+  {
+    "id": "1",
+    "img": "https://i.ibb.co/qMHtnwNQ/Screenshot-2025-06-29-111543.png",
+    "projectDetails": {
+      "name": "Jaitam Car Rental",
+      "category": "Full-stack",
+      "technologies": [
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Tailwind CSS"
+      ],
+      "otherTechnologies": [
+        "DaisyUI",
+        "React Router",
+        "Framer Motion",
+        "Firebase"
+      ],
+      "description": "Jaitam is a comprehensive single-page web application designed for car rentals. It allows users to seamlessly browse a catalog of available cars, view detailed information for each vehicle, and securely book their desired car. The application intelligently displays cars as 'available' or 'unavailable', preventing users from booking already reserved vehicles.\n      A key feature includes user-driven content: individuals can easily add their own cars to the platform, providing all necessary details. To ensure fair usage, a user is restricted to booking any specific car only once. For added control and data integrity, Jaitam implements a layer of protected APIs, allowing registered users to securely update or delete their own car listings directly within the application.",
+      "challenges": "",
+      "plans": ""
+    },
+    "liveLink": "https://jaitam.web.app/",
+    "githubLink": {
+      "client": "https://github.com/Marwan90679/jaitam-client",
+      "backend": "https://github.com/Marwan90679/jaitam-backend"
+    }
+  },
+  {
+    "id": "2",
+    "img": "https://i.ibb.co/PZ9RXkWK/Screenshot-2025-06-29-111713.png",
+    "projectDetails": {
+      "name": "Green Commandos",
+      "category": "Full-stack",
+      "technologies": [
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Tailwind CSS",
+        "React Router DOM"
+      ],
+      "otherTechnologies": [
+        "DaisyUI",
+        "Firebase Authentication (Email/Password, Google)",
+        "Framer Motion",
+        "React Toastify",
+        "dotenv",
+        "nodemon",
+        "Vercel (Deployment)"
+      ],
+      "description": "Green Commandos is a MERN stack web application fostering community-driven green initiatives. The client-side, built with React, provides a responsive UI for user authentication (Firebase), event listings, and volunteer opportunities. Users can easily post or join events and manage their gardening tips (CRUD operations) via a dedicated dashboard that also displays personal and community statistics.\n\n      The Node.js and Express.js backend, powered by MongoDB, supports gardener profiles and gardening tip management, offering RESTful endpoints. While it currently allows public access to routes, this design facilitates seamless integration with the client-side app, enabling comprehensive community interaction around eco-friendly actions.",
+      "challenges": "The current backend implementation does not include JWT-based authentication, making all API routes publicly accessible. Gardener profiles are also not yet dynamically added, indicating areas for future development.",
+      "plans": "Implement JWT-based authentication for enhanced security, add input validation with Joi or Zod, centralize error handling, introduce rate limiting, and write comprehensive unit and integration tests. Dynamically integrate gardener profiles."
+    },
+    "liveLink": "https://green-commandos.web.app/",
+    "githubLink": {
+      "client": "https://github.com/Marwan90679/green-comm-client",
+      "backend": "https://github.com/Marwan90679/green-comm-backend"
+    }
+  },
+  {
+    "id": "3",
+    "img": "https://i.ibb.co/sdV33QwX/Screenshot-2025-06-29-111655.png",
+    "projectDetails": {
+      "name": "Huntly Job Portal",
+      "category": "Front-end",
+      "technologies": [
+        "React",
+        "Tailwind CSS",
+        "React Router"
+      ],
+      "otherTechnologies": [
+        "DaisyUI",
+        "Framer Motion",
+        "Motion",
+        "React Intersection Observer",
+        "React Icons",
+        "Lucide React",
+        "React Slick",
+        "Slick Carousel",
+        "Firebase (for authentication and routing)"
+      ],
+      "description": "Huntly is a modern, front-end job search platform designed to help job seekers find opportunities primarily in local startups and businesses. It aims to simplify the job hunting process through a sleek, highly responsive, and user-friendly interface. The platform features frequently updated job listings and an animated user experience to enhance engagement.\n\n      Built with React 19 and leveraging Firebase for seamless authentication and routing, Huntly provides a clean and intuitive UI. Although it's a dummy website for portfolio purposes and doesn't involve real job or company data, it effectively demonstrates a robust front-end architecture for job search applications.",
+      "challenges": "This project is a dummy website for learning and portfolio purposes, so it does not interact with real job or company data. Illustrations and assets were sourced from Freepik.",
+      "plans": "Future plans could include integrating with a real job API, implementing more advanced search filters, and developing a backend to handle dynamic job postings and user applications."
+    },
+    "liveLink": "https://huntly-job.web.app/",
+    "githubLink": "https://github.com/Marwan90679/huntly-job-portal"
+  }
+]

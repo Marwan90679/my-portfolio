@@ -1,24 +1,37 @@
 import React from "react";
 import { RxBorderDashed } from "react-icons/rx";
 import { TbArrowDownRight } from "react-icons/tb";
-
+import Logo from "../Logo";
+import { Link } from "react-scroll";
+import pdf from '../../assets/Resume-marwan.pdf'
 const Navbar = () => {
-  const navlinks = [
-    <div key={1} className="flex lg:gap-8 cursor-pointer">
+  const navlinks = (
+    <div className="flex flex-col lg:flex-row lg:gap-8 cursor-pointer"> {/* This div groups the li elements */}
       <li>
-        <a>About Me</a>
+        <Link to="about" smooth={true} duration={100} className="cursor-pointer">
+          About Me
+        </Link>
       </li>
       <li>
-        <a>Skills</a>
+        <Link to="skills" smooth={true} duration={100} className="cursor-pointer">
+          Skills
+        </Link>
       </li>
       <li>
-        <a>Projects</a>
+        <Link to="projects" smooth={true} duration={100} className="cursor-pointer">
+          Projects
+        </Link>
       </li>
-    </div>,
-  ];
+      <li> {/* Added Contact link here to match all sections */}
+        <Link to="contact" smooth={true} duration={100} className="cursor-pointer">
+          Contact
+        </Link>
+      </li>
+    </div>
+  );
   return (
-    <div className="sticky top-0 z-50 border-b lg:border-b-4 md:border-b-2 w-full py-3">
-      <nav className=" flex items-center justify-between px-4 ">
+    <div className="bg-[#FFE7D6]  sticky top-0 z-50 border-b md:rounded-t-xl lg:border-b-4 md:border-b-2 w-full py-3 ">
+      <nav className=" flex items-center justify-between px-4  ">
         {/* Left Section */}
         <div className="flex items-center md:gap-6">
           {/* Hamburger for mobile only */}
@@ -49,20 +62,15 @@ const Navbar = () => {
             >
               {navlinks}
               <li>
-                <button className="btn bg-[#9c8371] text-white">
+               <a href={pdf}> <button className="btn bg-[#9c8371] text-white">
                   Download Resume
-                </button>
+                </button></a>
               </li>
             </ul>
           </div>
 
           {/* Logo */}
-          <div className="flex items-start gap-1">
-            <h3 className="koulen lg:text-3xl select-none">MARWAN AHMED</h3>
-            <span className="-ml-1 -mt-1 md:mt-0 rotate-270 text-lg md:text-3xl">
-              <TbArrowDownRight />
-            </span>
-          </div>
+         <Logo></Logo>
 
           <span className="border-l-2 border-dashed ml-3"></span>
         </div>
@@ -74,9 +82,9 @@ const Navbar = () => {
 
         {/* Right Button */}
         <div className="hidden lg:block ">
-          <button className="kanit cursor-pointer px-2 py-2 hover:text-white hover:bg-black rounded-full border">
-            Download Resume
-          </button>
+         <a href={pdf}> <button className="kanit cursor-pointer px-2 py-2 hover:text-white hover:bg-black rounded-full border">
+         Download Resume
+       </button></a>
         </div>
       </nav>
     </div>

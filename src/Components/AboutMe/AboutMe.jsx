@@ -3,11 +3,11 @@ import React from "react";
 const AboutMe = () => {
   return (
     
- <section className="relative">
+ <section className="relative min-h-screen">
        <div className="absolute inset-0 bg-white/40"></div>
-       <div className=" font-rubik w-11/12 md:w-3/4 lg:w-2/3 mx-auto min-h-screen flex flex-col justify-center py-12 ">
+       <div className=" font-rubik w-11/12 md:w-3/4 lg:w-2/3 mx-auto  flex flex-col justify-center py-4 lg:py-12 ">
            
-      <div className="flex justify-center mb-8">
+      <div className="flex justify-center lg:mb-8">
         <h3 className="font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-stone-900 py-8">
           About Me
         </h3>
@@ -37,23 +37,23 @@ const AboutMe = () => {
           </h5>
          
           <ul className="list-none space-y-2 text-left mx-auto max-w-sm md:max-w-md">
-            <li className="flex items-center pl-4 py-2 pr-2 rounded-md text-gray-800 text-base sm:text-lg transition-all duration-300 hover:bg-stone-100">
+            <li className="flex items-center pl-4 py-2 pr-2 rounded-md text-gray-800 text-base sm:text-lg transition-all duration-300 hover:bg-[#FFE7D6]">
               <span className="w-2 h-2 rounded-full bg-stone-500 mr-3 flex-shrink-0"></span>{" "}
               <span>Actually reading books (no, really!)</span>
             </li>
-            <li className="flex items-center pl-4 py-2 pr-2 rounded-md text-gray-800 text-base sm:text-lg transition-all duration-300 hover:bg-stone-100">
+            <li className="flex items-center pl-4 py-2 pr-2 rounded-md text-gray-800 text-base sm:text-lg transition-all duration-300 hover:bg-[#FFE7D6]">
               <span className="w-2 h-2 rounded-full bg-stone-500 mr-3 flex-shrink-0"></span>
               <span>Taking long walks to clear my head</span>
             </li>
-            <li className="flex items-center pl-4 py-2 pr-2 rounded-md text-gray-800 text-base sm:text-lg transition-all duration-300 hover:bg-stone-100">
+            <li className="flex items-center pl-4 py-2 pr-2 rounded-md text-gray-800 text-base sm:text-lg transition-all duration-300 hover:bg-[#FFE7D6]">
               <span className="w-2 h-2 rounded-full bg-stone-500 mr-3 flex-shrink-0"></span>
               <span>Geeking out over pre-medieval and medieval history</span>
             </li>
-            <li className="flex items-center pl-4 py-2 pr-2 rounded-md text-gray-800 text-base sm:text-lg transition-all duration-300 hover:bg-stone-100">
+            <li className="flex items-center pl-4 py-2 pr-2 rounded-md text-gray-800 text-base sm:text-lg transition-all duration-300 hover:bg-[#FFE7D6]">
               <span className="w-2 h-2 rounded-full bg-stone-500 mr-3 flex-shrink-0"></span>
               <span>Analyzing geopolitics and current affairs</span>
             </li>
-            <li className="flex items-center pl-4 py-2 pr-2 rounded-md text-gray-800 text-base sm:text-lg transition-all duration-300 hover:bg-stone-100">
+            <li className="flex items-center pl-4 py-2 pr-2 rounded-md text-gray-800 text-base sm:text-lg transition-all duration-300 hover:bg-[#FFE7D6]">
               <span className="w-2 h-2 rounded-full bg-stone-500 mr-3 flex-shrink-0"></span>
               <span>
                 Exploring hardware tech (no expertise yet, but it's just so

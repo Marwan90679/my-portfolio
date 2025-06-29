@@ -16,30 +16,31 @@ const Hero = () => {
       <h5 className="relative z-20 text-center text-gray-300 text-lg sm:text-xl md:text-2xl lg:text-3xl mt-4 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl mx-auto px-4">
         <TypeAnimation
           sequence={[
-            ' ',
+            " ",
             1000,
-            'MERN ',
+            "MERN ",
             1000,
-            'MERN Stack',
+            "MERN Stack",
             2000,
-            'MERN Stack Developer',
-            8000
+            "MERN Stack Developer",
+            8000,
           ]}
           wrapper="span"
           cursor={true}
           repeat={Infinity}
-          style={{ display: 'inline-block' }}
+          style={{ display: "inline-block" }}
         />
       </h5>
 
       {/* Image container with slang texts */}
       <div className="relative z-10 w-full max-w-6xl flex justify-center items-center h-[250px] md:h-[300px] lg:h-[400px] xl:h-[500px] mt-8 lg:mt-12">
         {/* Left slang text - hidden on smallest screens */}
-        <div className="hidden sm:block absolute left-0 lg:left-4 xl:left-8 top-1/4 md:top-1/3 transform -translate-y-1/2 z-20 w-32 md:w-40 text-right">
-          <p className="text-xs md:text-sm text-gray-400 font-mono italic rotate-[-10deg]">
-            "Debugging by moonlight"
+
+        <div className="hidden sm:block absolute right-4 lg:right-4 xl:right-8 top-1/4 md:top-1/3 transform -translate-y-1/2 z-20 w-32 md:w-40 text-left">
+          <p className="text-xs md:text-sm lg:text-xl text-gray-400 font-mono italic rotate-[10deg]">
+            "Coding by daylight"
           </p>
-          <div className="h-px w-12 md:w-16 bg-gray-600 ml-auto mt-1"></div>
+          <div className="h-px w-12 md:w-16 bg-gray-600 mr-auto mt-1"></div>
         </div>
 
         {/* Image holder */}
@@ -50,20 +51,19 @@ const Hero = () => {
               I Make Cool Stuff. What's Your Superpower?
             </h3>
           </div>
-          
+
           <img
             className="select-none absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/3 w-full md:w-100 lg:w-[800px]  object-contain"
             src="https://i.ibb.co/tGk2hXm/Adobe-Express-file.png"
             alt="Marwan Ahmed"
           />
         </div>
-
         {/* Right slang text - hidden on smallest screens */}
-        <div className="hidden sm:block absolute right-0 lg:right-4 xl:right-8 top-1/4 md:top-1/3 transform -translate-y-1/2 z-20 w-32 md:w-40 text-left">
-          <p className="text-xs md:text-sm text-gray-400 font-mono italic rotate-[10deg]">
-            "Coding by daylight"
+        <div className="hidden sm:block absolute left-0 lg:left-4 xl:left-8 top-1/4 md:top-1/3 transform -translate-y-1/2 z-20 w-32 md:w-40 text-right">
+          <p className="text-xs lg:text-xl md:text-sm text-gray-400 font-mono italic rotate-[-10deg]">
+            "Debugging by moonlight"
           </p>
-          <div className="h-px w-12 md:w-16 bg-gray-600 mr-auto mt-1"></div>
+          <div className="h-px w-12 md:w-16 bg-gray-600 ml-auto mt-1"></div>
         </div>
       </div>
     </div>

@@ -70,7 +70,7 @@ const ProjectCard = ({ project, isExpanded, onToggle }) => {
                   {project.projectDetails.technologies.map((tech) => (
                     <span
                       key={tech}
-                      className="px-3 py-1 bg-stone-200 text-stone-700 rounded-full text-xs"
+                      className="px-3 py-1 bg-stone-600 text-stone-200 rounded-full text-xs"
                     >
                       {tech}
                     </span>

@@ -17,7 +17,7 @@ const AboutMe = () => {
       <div className="border-4 border-gray-500 border-dashed space-y-6 md:space-y-8 p-6 sm:p-8 md:p-10 rounded-2xl  backdrop-blur-sm shadow-lg">
         {/* First Paragraph: Introduction */}
         <div className="text-center font-bold">
-          <p className="text-gray-800 text-base sm:text-lg md:text-xl leading-relaxed">
+          <p className="text-gray-800 lg:text-2xl sm:text-lg md:text-xl font-semibold">
             <span className="text-xl sm:text-2xl md:text-3xl font-extrabold text-stone-900">
               Hey, I'm Marwan Ahmed !
             </span>{" "}
@@ -32,28 +32,28 @@ const AboutMe = () => {
 
         {/* Hobbies Section */}
         <div className="text-center">
-          <h5 className="text-xl sm:text-2xl font-bold text-stone-900 mb-4">
+          <h5 className="text-xl sm:text-4xl font-bold text-stone-900 mb-4">
             When I'm not coding, you'll find me:
           </h5>
          
           <ul className="list-none space-y-2 text-left mx-auto max-w-sm md:max-w-md">
-            <li className="flex items-center pl-4 py-2 pr-2 rounded-md text-gray-800 text-base sm:text-lg transition-all duration-300 hover:bg-[#FFE7D6]">
+            <li className="flex items-center pl-4 py-2 pr-2 rounded-md text-gray-800  sm:text-lg transition-all duration-300 hover:bg-[#FFE7D6] lg:text-2xl">
               <span className="w-2 h-2 rounded-full bg-stone-500 mr-3 flex-shrink-0"></span>{" "}
               <span>Actually reading books (no, really!)</span>
             </li>
-            <li className="flex items-center pl-4 py-2 pr-2 rounded-md text-gray-800 text-base sm:text-lg transition-all duration-300 hover:bg-[#FFE7D6]">
+            <li className="flex items-center pl-4 py-2 pr-2 rounded-md text-gray-800 lg:text-2xl sm:text-lg transition-all duration-300 hover:bg-[#FFE7D6]">
               <span className="w-2 h-2 rounded-full bg-stone-500 mr-3 flex-shrink-0"></span>
               <span>Taking long walks to clear my head</span>
             </li>
-            <li className="flex items-center pl-4 py-2 pr-2 rounded-md text-gray-800 text-base sm:text-lg transition-all duration-300 hover:bg-[#FFE7D6]">
+            <li className="flex items-center pl-4 py-2 pr-2 rounded-md text-gray-800 lg:text-2xl sm:text-lg transition-all duration-300 hover:bg-[#FFE7D6]">
               <span className="w-2 h-2 rounded-full bg-stone-500 mr-3 flex-shrink-0"></span>
               <span>Geeking out over pre-medieval and medieval history</span>
             </li>
-            <li className="flex items-center pl-4 py-2 pr-2 rounded-md text-gray-800 text-base sm:text-lg transition-all duration-300 hover:bg-[#FFE7D6]">
+            <li className="flex items-center pl-4 py-2 pr-2 rounded-md text-gray-800 lg:text-2xl sm:text-lg transition-all duration-300 hover:bg-[#FFE7D6]">
               <span className="w-2 h-2 rounded-full bg-stone-500 mr-3 flex-shrink-0"></span>
               <span>Analyzing geopolitics and current affairs</span>
             </li>
-            <li className="flex items-center pl-4 py-2 pr-2 rounded-md text-gray-800 text-base sm:text-lg transition-all duration-300 hover:bg-[#FFE7D6]">
+            <li className="flex items-center pl-4 py-2 pr-2 rounded-md text-gray-800 lg:text-2xl sm:text-lg transition-all duration-300 hover:bg-[#FFE7D6]">
               <span className="w-2 h-2 rounded-full bg-stone-500 mr-3 flex-shrink-0"></span>
               <span>
                 Exploring hardware tech (no expertise yet, but it's just so
@@ -64,7 +64,7 @@ const AboutMe = () => {
         </div>
 
         {/* Concluding Paragraph */}
-        <p className="text-center text-gray-800 text-base sm:text-lg md:text-xl leading-relaxed mt-6">
+        <p className="text-center text-gray-800 lg:text-2xl sm:text-lg md:text-xl leading-relaxed mt-6">
           I dream big, work hard, and - God willing - I'll reach those heights.
           The journey's just beginning!
         </p>
